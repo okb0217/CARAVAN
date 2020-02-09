@@ -4,7 +4,7 @@ class CreateBlogs < ActiveRecord::Migration[5.2]
 
  		t.string :title
     	t.string :category
-    	t.text :blogs
+    	t.text :body
 
 		t.timestamps
     end
